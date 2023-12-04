@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Produk Kami</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"/>
+  </head>
+  <body class="bg-secondary">
+    <div class="container  p-0 mb-4 mt-4 rounded-3 shadow bg-white">
+    <div id="#" class="px-4 py-4 bg-secondary text-center">
+      <div class="mx-auto w-75">
+        <h3 class="text-white">Produk Kami</h3>
+        <p class="text-white">
+          Ini Merupakan beberapa Produk  Jam Tangan yang kami jual:
+      <div class="row row-cols-md-3 row-cols-2 gx-5 p-5">
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="img/gmr 2.jpeg" class="card-video-top" ></img>
+            <div class="card-body">
+              <h5 class="card-title">jam 1 </h5>
+              <p class="card-text"><strong>Harga:</strong> Rp 500.000</p>
+            </div>
+            <div class="card-footer d-md-flex">
+              <a href="https://api.whatsapp.com/send?phone=6281240231771" class="btn btn-sm btn-primary d-block btnBeli" onclick="toggleDescription(1)">Beli Sekarang</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="img/gmbr 3.jpeg" class="card-img-top" ></img>
+            <div class="card-body">
+              <h5 class="card-title">jam 3</h5>
+              <p class="card-text"><strong>Harga:</strong> Rp 500.000</p>
+            </div>
+            <div class="card-footer d-md-flex">
+              <a href="https://api.whatsapp.com/send?phone=6281240231771" class="btn btn-sm btn-primary d-block btnBeli" onclick="toggleDescription(2)">Beli Sekarang</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="img/gmbr 4.jpeg" class="card-img-top" ></img>
+            <div class="card-body">
+              <h5 class="card-title">jam 4 </h5>
+              <p class="card-text"><strong>Harga:</strong> Rp 500.000</p>
+            </div>
+            <div class="card-footer d-md-flex">
+              <a href="https://api.whatsapp.com/send?phone=6281240231771" class="btn btn-sm btn-primary d-block btnBeli" onclick="toggleDescription(3)">Beli Sekarang</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="img/gmbr 5.jpeg" class="card-img-top" ></img>
+            <div class="card-body">
+              <h5 class="card-title">jam 5</h5>
+              <p class="card-text"><strong>Harga:</strong> Rp 500.000</p>
+            </div>
+            <div class="card-footer d-md-flex">
+              <a href="https://api.whatsapp.com/send?phone=6281240231771" class="btn btn-sm btn-primary d-block btnBeli" onclick="toggleDescription(4)">Beli Sekarang</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="img/gmr 2.jpeg" class="card-img-top" ></img>
+            <div class="card-body">
+              <h5 class="card-title">jam 2  </h5>
+              <p class="card-text"><strong>Harga:</strong> Rp 500.000</p>
+            </div>
+            <div class="card-footer d-md-flex">
+              <a href="https://api.whatsapp.com/send?phone=6281240231771" class="btn btn-sm btn-primary d-block btnBeli" onclick="toggleDescription(5)">Beli Sekarang</a>
+         </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="img/gmr 2.jpeg" class="card-img-top" ></img>
+            <div class="card-body">
+              <h5 class="card-title">jam 2  </h5>
+              <p class="card-text"><strong>Harga:</strong> Rp 500.000</p>
+            </div>
+            <div class="card-footer d-md-flex">
+              <a href="https://api.whatsapp.com/send?phone=6281240231771" class="btn btn-sm btn-primary d-block btnBeli" onclick="toggleDescription(5)">Beli Sekarang</a>
+            </div>
+          </div>
+        </div>
+      <script>
+        function toggleDescription(videoNumber) {
+          var description = document.getElementById("videoDescription" + videoNumber);
+          if (description.style.display === "none") {
+            description.style.display = "block";
+          } else {
+            description.style.display = "none";
+          }
+        }
+      </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+<body>
+  <ul>
+    <li><a href="about.html">Tentang Kami</a></li>
+    <li><a href="produk.html">Produk</a></li>
+    <li><a href="contact.html">kontak Kami</a></li>
+    <li><a href="home.html">HOME</a></li>
+  </ul>
+</body>
+</html>
